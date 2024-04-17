@@ -1,0 +1,82 @@
+[
+    {'percent': 50, 
+    'elements': [
+        {'id': '57ee7aa4-016f-4468-9889-24eb0db28c26', 'contour': <shapely.geometry.polygon.Polygon object at 0x7af84202b748>}, 
+        {'id': 'e5982201-47b5-4215-a34c-3ec639f015a1', 'contour': <shapely.geometry.polygon.Polygon object at 0x7af84202b780>}, 
+        {'id': '9fba566e-89f1-4aa3-97c9-e537d1c9e314', 'contour': <shapely.geometry.polygon.Polygon object at 0x7af84202b7b8>}, 
+        {'id': 'f3107869-c7e2-44e3-8a38-4828108f4c46', 'contour': <shapely.geometry.polygon.Polygon object at 0x7af84202b7f0>}, 
+        {'id': 'b54ea51b-283f-4f84-a53b-20b6b2f65a5f', 'contour': <shapely.geometry.polygon.Polygon object at 0x7af84202b828>}, 
+        {'id': 'cb65d175-e5a0-4707-8ba3-1170702e80a3', 'contour': <shapely.geometry.polygon.Polygon object at 0x7af84202b860>}]}, 
+    
+    {'percent': 30, 
+    'elements': [
+        {'id': '61dde328-e6f7-41f6-bf62-b95a536cb001', 'contour': <shapely.geometry.polygon.Polygon object at 0x7af84202bac8>}, 
+        {'id': '826d5cf8-4472-46f6-8116-976ac9817f4c', 'contour': <shapely.geometry.polygon.Polygon object at 0x7af84202bb70>}, 
+        {'id': 'fde9b203-a1c2-4837-b857-e6877fbcd4eb', 'contour': <shapely.geometry.polygon.Polygon object at 0x7af841f99160>}]}]
+
+
+#######################################################################################################################################
+
+
+{'data': [
+    {'elements': [
+        {'id': '57ee7aa4-016f-4468-9889-24eb0db28c26', 'contour': <shapely.geometry.polygon.Polygon object at 0x7933b45fd860>}, 
+        {'id': 'e5982201-47b5-4215-a34c-3ec639f015a1', 'contour': <shapely.geometry.polygon.Polygon object at 0x7933b45fd898>}, 
+        {'id': '9fba566e-89f1-4aa3-97c9-e537d1c9e314', 'contour': <shapely.geometry.polygon.Polygon object at 0x7933b45fd8d0>}, 
+        {'id': 'f3107869-c7e2-44e3-8a38-4828108f4c46', 'contour': <shapely.geometry.polygon.Polygon object at 0x7933b45fd908>}, 
+        {'id': 'b54ea51b-283f-4f84-a53b-20b6b2f65a5f', 'contour': <shapely.geometry.polygon.Polygon object at 0x7933b45fd940>}, 
+        {'id': 'cb65d175-e5a0-4707-8ba3-1170702e80a3', 'contour': <shapely.geometry.polygon.Polygon object at 0x7933b45fd978>}], 
+    
+    'typical_element': 
+    'ЗДАНИЯ МАШИННЫХ ЗАЛОВ И КОТЕЛЬНОЙ', 
+    'percent': 50}, 
+    
+    {'elements': [
+        {'id': '61dde328-e6f7-41f6-bf62-b95a536cb001', 'contour': <shapely.geometry.polygon.Polygon object at 0x7933b45fdbe0>}, 
+        {'id': '826d5cf8-4472-46f6-8116-976ac9817f4c', 'contour': <shapely.geometry.polygon.Polygon object at 0x7933b45fdc88>}, 
+        {'id': 'fde9b203-a1c2-4837-b857-e6877fbcd4eb', 'contour': <shapely.geometry.polygon.Polygon object at 0x7933b4585278>}], 
+        
+    'typical_element': 'СКЛАДСКИЕ ЗДАНИЯ', 
+    'percent': 30}], 
+
+'object_id': '7d085479-23b3-425f-beb6-cd672dc3d103', 
+'typical_defeat_combination': 'cb42ac71-a9c0-494c-b064-86870c3527aa'}
+
+#######################################################################################################################################
+
+
+[
+    {'contour': <shapely.geometry.polygon.Polygon object at 0x776aab7eb5f8>, 'id': '57ee7aa4-016f-4468-9889-24eb0db28c26'}, 
+    {'contour': <shapely.geometry.polygon.Polygon object at 0x776aab1c2908>, 'id': 'e5982201-47b5-4215-a34c-3ec639f015a1'}, 
+    {'contour': <shapely.geometry.polygon.Polygon object at 0x776aab1c2940>, 'id': '9fba566e-89f1-4aa3-97c9-e537d1c9e314'}, 
+    {'contour': <shapely.geometry.polygon.Polygon object at 0x776aab1c2978>, 'id': 'f3107869-c7e2-44e3-8a38-4828108f4c46'}, 
+    {'contour': <shapely.geometry.polygon.Polygon object at 0x776aab1c29b0>, 'id': 'b54ea51b-283f-4f84-a53b-20b6b2f65a5f'}, 
+    {'contour': <shapely.geometry.polygon.Polygon object at 0x776aab1c29e8>, 'id': 'cb65d175-e5a0-4707-8ba3-1170702e80a3'}
+]
+
+
+4 4.1642877353071614e-07
+6 1.5581437127355648e-07
+2 1.1284503877223441e-07
+5 4.108781273486507e-08
+3 3.5642125713958234e-08
+1 3.2950717551241784e-08
+
+
+57ee7aa4-016f-4468-9889-24eb0db28c26 3.2950717551241784e-08
+9fba566e-89f1-4aa3-97c9-e537d1c9e314 3.5642125713958234e-08
+b54ea51b-283f-4f84-a53b-20b6b2f65a5f 4.108781273486507e-08
+e5982201-47b5-4215-a34c-3ec639f015a1 1.1284503877223441e-07
+cb65d175-e5a0-4707-8ba3-1170702e80a3 1.5581437127355648e-07
+f3107869-c7e2-44e3-8a38-4828108f4c46 4.1642877353071614e-07
+
+
+
+
+[
+    {'contour': <shapely.geometry.polygon.Polygon object at 0x776aab7eb5f8>, 'id': '57ee7aa4-016f-4468-9889-24eb0db28c26'}, 
+    {'contour': <shapely.geometry.polygon.Polygon object at 0x776aab1c2940>, 'id': '9fba566e-89f1-4aa3-97c9-e537d1c9e314'}, 
+    {'contour': <shapely.geometry.polygon.Polygon object at 0x776aab1c29b0>, 'id': 'b54ea51b-283f-4f84-a53b-20b6b2f65a5f'}, 
+    {'contour': <shapely.geometry.polygon.Polygon object at 0x776aab1c2908>, 'id': 'e5982201-47b5-4215-a34c-3ec639f015a1'}, 
+    {'contour': <shapely.geometry.polygon.Polygon object at 0x776aab1c29e8>, 'id': 'cb65d175-e5a0-4707-8ba3-1170702e80a3'}, 
+    {'contour': <shapely.geometry.polygon.Polygon object at 0x776aab1c2978>, 'id': 'f3107869-c7e2-44e3-8a38-4828108f4c46'}]

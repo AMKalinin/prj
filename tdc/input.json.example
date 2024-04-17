@@ -1,0 +1,22 @@
+{
+	"typical_defeat_combination" : "uuid",
+	"object_id" : "uuid",
+	"data" : [
+		{
+			"typical_element" : "Наименование типового элемента",
+			"percent" : "Процент поражаемых элементов данного типа",
+			"elements" : [
+				{"id" : "uuid", "contour" : "ewkt"},
+				{"id" : "uuid", "contour" : "ewkt"}
+			]
+		},
+		{
+			"typical_element" : "Наименование типового элемента",
+			"percent" : "Процент поражаемых элементов данного типа",
+			"elements" : [
+				{"id" : "uuid", "contour" : "ewkt"},
+				{"id" : "uuid", "contour" : "ewkt"}
+			]
+		}
+	]
+}
