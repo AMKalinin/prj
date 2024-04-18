@@ -1,28 +1,20 @@
-import math
+import logging
 
-import reader
+
+logger = logging.getLogger(__name__)
+
+def get_n(element_count, percent):
+    return round(element_count * percent / 100)
 
 
 def simple_search(polygon_data):
+    logging.info('Start simple_search')
+    res = []
     for group in polygon_data['data']:
+
         group['elements'].sort(key=lambda d: d['contour'].area, reverse=True)
+        n = get_n(len(group['elements']), group['percent'])
 
-        n = len(group['elements']) * group['percent'] / 100
-        print(math.ceil(n))
-
-    return 0
-
-
-if __name__ == '__main__':
-    data = reader.read('tdc/input_4.json')
-    simple_search(data)
-
-    # a = [{'id': 1, 'value': 1.2},
-    #      {'id': 2, 'value': 1.23},
-    #      {'id': 3, 'value': 1.3},
-    #      {'id': 4, 'value': 1.33},
-    #      {'id': 5, 'value': 1.3},
-    #      {'id': 6, 'value': 1.4},
-    #      {'id': 7, 'value': 1}]
-    # a.sort(key=lambda d: d['value'],)
-    # print(a)
+        res.append([name['id'] for name in group['elements'][:n]])
+    logging.info('Finish simple_search')
+    return res

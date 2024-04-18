@@ -1,41 +1,33 @@
 import json
-# from shapely.geometry import Polygon
+import logging
+
 from shapely.wkt import loads
 
 
-def read2(file_name):
-    with open(file_name) as json_file:
-        data = json.load(json_file)
-    res_data = []
-    for group in data['data']:
-        dict_info = {'percent': group['percent'],
-                     'elements': []}
-
-        for item in group['elements']:
-
-            pol = item['contour']
-            polyg = loads(pol.split(';')[1])
-
-            dict_info['elements'].append({'id': item['id'], 'contour': polyg})
-        res_data.append(dict_info)
-
-    return res_data
+logger = logging.getLogger(__name__)
 
 
 def read(file_name):
+    logger.info('Load data from ' + file_name)
+
     with open(file_name) as json_file:
         data = json.load(json_file)
 
+    data['typical_defeat_combination']  # validation key in json
+    data['object_id']  # validation key in json
+
     for group in data['data']:
+
+        group['percent']  # validation key in json
+        group['typical_element']  # validation key in json
+
         for item in group['elements']:
+
+            item['id']  # validation key in json
 
             pol = item['contour']
             polyg = loads(pol.split(';')[1])
-            print(item['id'], polyg.area)
+
             item['contour'] = polyg
-        print()
+    logger.info('Data loaded')
     return data
-
-
-if __name__ == '__main__':
-    read('tdc/input_2.json')
