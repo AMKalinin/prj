@@ -1,0 +1,20 @@
+{
+    "message": "", 
+    "data": 
+        [
+            [
+                "44a7312f-1e89-470c-a6c7-fa4171a8a959", 
+                "f514741c-bf62-4b8e-a477-43590f76b359", 
+                "0a6f85ae-d3ab-44dd-a62f-d14b1cfc4405", 
+                "2178b681-1542-4a66-b9af-3f3a26efce9d", 
+                "28f89b1a-a88f-4aec-8dec-b113af13169b", 
+                "e2903052-1aa4-429b-a705-a8f279d382dd"
+            ], 
+            [
+                "88f4f7e8-e9d9-4da7-8024-129b65ef089f", 
+                "a1ac28c0-9bd1-4e0c-8c60-5de2b765887c"
+            ]
+        ], 
+    "object_id": "uuid", 
+    "result": true, 
+    "typical_defeat_combination": "uuid"}
