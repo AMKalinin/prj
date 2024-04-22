@@ -28,14 +28,12 @@ def main():
     except KeyError as err:
         error_message = 'Ошибка в структуре входного файла. Отсутствует поле ' + str(err) + '.'
         logger.error(error_message)
-    except FileNotFoundError as e:
+    except FileNotFoundError:
         error_message = 'Входной файл не найден.'
         logger.error(error_message)
-    
-    
+
     if data:
         result = search.simple_search(data)
-
 
     try:
         if data:
@@ -50,9 +48,8 @@ def main():
                                 error_message=error_message)
     except FileNotFoundError:
         logger.error('Данный каталог отсутствует.')
-    
-    logger.info('Finished')
 
+    logger.info('Finished')
 
 
 if __name__ == "__main__":

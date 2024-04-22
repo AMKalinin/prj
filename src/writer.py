@@ -4,12 +4,19 @@ import logging
 
 logger = logging.getLogger(__name__)
 
-def write_result(file_name, combination, object_id, data=None, error_message=None):
+
+def write_result(
+        file_name,
+        combination,
+        object_id,
+        data=None,
+        error_message=None):
+
     logger.info('Creating output files in ' + file_name)
-    with open (file_name, 'w') as file:
+    with open(file_name, 'w') as file:
         out_dict = {
             'typical_defeat_combination': combination,
-            'object_id':object_id,
+            'object_id': object_id,
         }
         if error_message:
             out_dict['result'] = False

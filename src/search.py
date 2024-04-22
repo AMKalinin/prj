@@ -3,6 +3,7 @@ import logging
 
 logger = logging.getLogger(__name__)
 
+
 def get_n(element_count, percent):
     return round(element_count * percent / 100)
 
